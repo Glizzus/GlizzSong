@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+  glizzsong:
+    build: .
+    env_file:
+      - .env
