@@ -1,4 +1,4 @@
-import { Client, ClientOptions, Collection, Events, SlashCommandBuilder } from "discord.js";
+import { Client, ClientOptions, Collection, Events } from "discord.js";
 import { CommandHandler } from "./commands/Command";
 import Play from "./commands/Play";
 

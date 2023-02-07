@@ -1,7 +1,5 @@
-import { joinVoiceChannel, createAudioPlayer, VoiceConnectionStatus, AudioPlayerStatus } from '@discordjs/voice';
-import { Client, Events, GatewayIntentBits, GuildDefaultMessageNotifications, Message } from 'discord.js';
+import { GatewayIntentBits } from 'discord.js';
 import Config from './Config';
-import Play from './commands/Play';
 import GlizzClient from './GlizzClient';
 
 const client = new GlizzClient({
